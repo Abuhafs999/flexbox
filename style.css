@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: hsl(0, 0%, 95%) ;
+}
+main{
+    width: 50%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.orange{
+    background-color: hsl(31, 77%, 52%);
+    padding: 2em;
+    width: 100%;
+}
+.orange h3{
+    color: white;
+    font-size: 20px;
+    padding: 15px;
+    font-weight: bold;
+}
+.orange p{
+    color: rgb(239, 239, 240);
+    font-size: 15px;
+    padding-bottom: 10px;
+}
+.orange button{
+    background-color:hsl(31, 77%, 52%) ;
+    color: white;
+    padding: 15px;
+    border-radius: 50px;
+    border-color: white;
+    margin-top: 50px;
+}
+.blue{
+    background-color: hsl(184, 100%, 22%);
+    padding: 2em;
+    width: 100%;
+}
+.blue h3{
+    color: white;
+    font-size: 20px;
+    padding: 15px;
+    font-weight: bold;
+
+}
+.blue p{
+    color: rgb(239, 239, 240);
+    font-size: 15px;
+    padding-bottom: 10px;
+}
+.blue button{
+    background-color:hsl(184, 100%, 22%) ;
+    color: white;
+    padding: 15px;
+    border-radius: 50px;
+    border-color: white;
+    margin-top: 50px;
+}
+.green{
+    background-color: hsl(179, 100%, 13%);
+    padding: 2em;
+    width: 100%;
+}
+.green h3{
+    color: white;
+    font-size: 20px;
+    padding: 15px;
+    font-weight: bold;
+
+}
+.green p{
+    color: rgb(239, 239, 240);
+    font-size: 15px;
+    padding-bottom: 10px;
+}
+.green button{
+    background-color:hsl(179, 100%, 13%) ;
+    color: white;
+    padding: 15px;
+    border-radius: 50px;
+    border-color: white;
+    margin-top: 50px;
+}

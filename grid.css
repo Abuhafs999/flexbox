@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: hsl(0, 0%, 95%) ;
+    display: flex;
+    place-items: center;
+    min-height: 100vh ;
+}
+main{
+    display: grid;
+    grid-template-areas: 
+    'a b c' 
+    ;
+    width: 50%;
+    margin: auto;
+}
+main div{
+    padding: 2em;
+    text-align: justify;
+}
+.orange{
+    background-color: hsl(31, 77%, 52%);
+    padding: 2em;
+    width: 100%;
+    grid-area: a;
+}
+.orange h3{
+    color: white;
+    font-size: 20px;
+    padding: 15px;
+    font-weight: bold;
+}
+.orange p{
+    color: rgb(239, 239, 240);
+    font-size: 15px;
+    padding-bottom: 10px;
+}
+.orange button{
+    background-color:hsl(31, 77%, 52%) ;
+    color: white;
+    padding: 15px;
+    border-radius: 50px;
+    border-color: white;
+    margin-top: 50px;
+}
+.blue{
+    background-color: hsl(184, 100%, 22%);
+    padding: 2em;
+    width: 100%;
+    grid-area: b;
+}
+.blue h3{
+    color: white;
+    font-size: 20px;
+    padding: 15px;
+    font-weight: bold;
+
+}
+.blue p{
+    color: rgb(239, 239, 240);
+    font-size: 15px;
+    padding-bottom: 10px;
+}
+.blue button{
+    background-color:hsl(184, 100%, 22%) ;
+    color: white;
+    padding: 15px;
+    border-radius: 50px;
+    border-color: white;
+    margin-top: 50px;
+}
+.green{
+    background-color: hsl(179, 100%, 13%);
+    padding: 2em;
+    width: 100%;
+    grid-area: c;
+}
+.green h3{
+    color: white;
+    font-size: 20px;
+    padding: 15px;
+    font-weight: bold;
+
+}
+.green p{
+    color: rgb(239, 239, 240);
+    font-size: 15px;
+    padding-bottom: 10px;
+}
+.green button{
+    background-color:hsl(179, 100%, 13%) ;
+    color: white;
+    padding: 15px;
+    border-radius: 50px;
+    border-color: white;
+    margin-top: 50px;
+}
